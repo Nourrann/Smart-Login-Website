@@ -1,0 +1,27 @@
+/** Start General Styles **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #24353f;
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-family: sans-serif;
+}
+.nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding-inline: 40px;
+}
+
+.group2{
+    padding-top: 200px;
+}
+
+.group{
+    
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.group2 .group p{
+    color: #17a2b8;
+}

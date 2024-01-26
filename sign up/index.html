@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <!-- Titillium Web Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Css style -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <section class="container loginCard mt-5 w-75 text-center">
+        <div class="p-5">
+          <h1 class="header mb-3">Smart Login System</h1>
+          <div class="inputs">
+            <input class = "form-control mb-3" type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input class="form-control mb-3" type="email" name="email" id="email" placeholder="Enter your email">
+            <input class="form-control mb-4" type="password" name="pass" id="pass" placeholder="Enter your password">
+
+            <div id="message" class="text-center"></div>
+
+            <button onclick="add()" id="loginBtn" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+          </div>
+          <p class="signUpMessage">Don't have an account? <a href="../index.html">signin</a></p>
+        </div>
+
+    </section>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>
